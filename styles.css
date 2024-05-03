@@ -24,7 +24,7 @@
 #bit {
   position: fixed;
   left: 50%;
-  bottom: 50%;
+  bottom: 10%;
   transform: translate(-50%, 50%);
   background-color: #007bff;
   color: #fff;
