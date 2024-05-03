@@ -1,0 +1,76 @@
+#head{
+
+  color:black;
+  text-align: center;
+  font-family:helvetica;
+}
+#quote{
+  text-align:center;
+  margin-left:30%;
+  margin-right:30%;
+  position:relative;
+  color:white;
+  font-family: "Stoic Script";
+  font-size:25px;
+}
+#author{
+  text-align:center;
+  position:fixed;
+  margin-left:70%;
+  margin-top:5%;
+  color:white;
+}
+#bit {
+  position: fixed;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#bit:hover {
+  background-color: #0056b3;
+}
+
+  
+
+body{
+  background-color:black;
+}
+#foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+#foot a{
+  text-decoration: none;
+  color:white;
+  
+}
+.confetti{
+  color:white;
+}
+body {
+  transition: background-color 0.5s ease; /* Add transition for smooth color change */
+}
+/* Add your CSS styles for the floating text here */
+.floating-text {
+  position: fixed;
+  font-size: 20px;
+  color: white;
+  z-index: 9999; 
+  opacity:10%;
+}
